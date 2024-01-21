@@ -38,6 +38,5 @@ Route::get('/test-mongodb-connection', function () {
 });
 
 Route::get('/test-mongodb', function () {
-    $data = NamaModel::all(); // Mengambil semua data dari model MongoDB
-    return $data;
+    $data = NamaModel::all(); 
 });
